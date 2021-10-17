@@ -16,11 +16,7 @@ For this project we will look as to how to utilize regex in validating a passwor
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Author](#author)
 
 ## Regex Components
 ``
@@ -62,5 +58,7 @@ As you can see we utilize this to identify what each characteristic should the r
 
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+``
+Sallam Thabet is an Industrial Engineer with experience and emphasis on operational efficiency and excellency.
+``
+Github: thabets
