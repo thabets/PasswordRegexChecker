@@ -31,7 +31,14 @@ In a Regular Expression or more commonly known Regex anchors play a key role in 
 
 ### Quantifiers
 
-There are
+Quantifiers come in many different forms but for this example there are three specific quantifiers we utilized. First is `?` quantifier which requires a single instance of a character to be available, the second is `*` quantifier which will require multiple instances of a character or condition. Although those are conditions for the quantifiers we utilize them in a manner to establish an atleast condition.
+``
+`?=.*[a-z]` This block of code means that we would require at least one lower case letter. 
+`?=.*[A-Z]` This block of code would require at least one Upper case letter.
+``
+The rest of the code follows this pattern to require either special characters or numbers.
+``
+But wait, we could see that there is another quantifier remaining that we need to emphasize on which is `{8,32}`. This functions as a different type of quantifying restriction for the regex expression. Instead of telling the engine to search the string for a specific type of information, it is setting a constraint that the string needs to be at least 8 characters long and not longer than 32 characters. We are also able to modify such constraints by for example `{8,}` as shown in the code which means that the min length of the password can not be lower than 8 characters but can be infinitely long.
 
 ### OR Operator
 
